@@ -1,3 +1,14 @@
-body {
-background: darkseagreen;
+@import url("../fonts/Roboto/roboto.css");
+
+.text {
+    font-size: 18px;
+}
+.text_thin {
+    font-family: "Roboto Thin";
+}
+.text_light {
+    font-family: "Roboto Light";
+}
+.text_bold {
+    font-family: "Roboto Bold";
 }
