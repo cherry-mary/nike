@@ -1,1 +1,79 @@
 @import url("../fonts/Roboto/roboto.css");
+@import url("reset.css");
+
+/* .menu {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 161px;
+    margin-top: -22px;
+    width: 442px;
+    height: 70px;
+}
+.menu__logo-text {
+    justify-content: flex-start;
+    font-family: "Roboto Regular";
+    font-size: 24px;
+    padding-left: 15px;
+}
+.menu__list {
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Roboto Light";
+    font-size: 14px;
+}
+.menu__list-wrapper {
+    list-style-type: none;
+    padding-left: 20px;
+} */
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.nav {
+    height: 70px;
+    background: #FFF;
+}
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.nav__logo-wrapper {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+.nav__logo-text {
+font-family: "Roboto Regular";
+    font-size: 24px;
+    margin-left: 15px;
+}
+.nav__list {
+    display: flex;
+    align-items: center;
+}
+.nav__list-link {
+    font-family: "Roboto Light";
+    margin-left: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000000;
+}
+.nav__list-link_activ {
+    position: relative;
+    color: #d84034;
+}
+.nav__list-link_activ::before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #d84034;
+    top: 5px;
+    left: -14px;
+}
