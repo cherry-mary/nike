@@ -1,33 +1,6 @@
 @import url("../fonts/Roboto/roboto.css");
 @import url("reset.css");
 
-/* .menu {
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 161px;
-    margin-top: -22px;
-    width: 442px;
-    height: 70px;
-}
-.menu__logo-text {
-    justify-content: flex-start;
-    font-family: "Roboto Regular";
-    font-size: 24px;
-    padding-left: 15px;
-}
-.menu__list {
-    display: flex;
-    justify-content: flex-end;
-    font-family: "Roboto Light";
-    font-size: 14px;
-}
-.menu__list-wrapper {
-    list-style-type: none;
-    padding-left: 20px;
-} */
-
 .container{
     width: 1140px;
     margin: 0 auto;
@@ -76,4 +49,34 @@ font-family: "Roboto Regular";
     background: #d84034;
     top: 5px;
     left: -14px;
+}
+
+.nav-bottom__two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+}
+
+.nav-bottom__contacts {
+     display: flex;
+    align-items: center;
+}
+.nav-bottom__number {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "Roboto Light";
+    font-size: 14px;
+    color: black;
+}
+.nav-bottom__cart {
+    display: flex;
+    align-items: center;
+}
+.nav-bottom__register {
+    font-family: "Roboto Light";
+    font-size: 14px;
+    margin-right: 6px;
+    color: black;
 }
