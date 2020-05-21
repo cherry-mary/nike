@@ -1,33 +1,6 @@
 @import url("../fonts/Roboto/roboto.css");
 @import url("reset.css");
 
-/* .menu {
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 161px;
-    margin-top: -22px;
-    width: 442px;
-    height: 70px;
-}
-.menu__logo-text {
-    justify-content: flex-start;
-    font-family: "Roboto Regular";
-    font-size: 24px;
-    padding-left: 15px;
-}
-.menu__list {
-    display: flex;
-    justify-content: flex-end;
-    font-family: "Roboto Light";
-    font-size: 14px;
-}
-.menu__list-wrapper {
-    list-style-type: none;
-    padding-left: 20px;
-} */
-
 .container{
     width: 1140px;
     margin: 0 auto;
@@ -76,4 +49,52 @@ font-family: "Roboto Regular";
     background: #d84034;
     top: 5px;
     left: -14px;
+}
+
+.nav-bottom__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+}
+.nav-bottom__call-us {
+    font-family: "Roboto Light";
+    font-size: 14px;
+    color: black;
+}
+.nav-bottom__right-block {
+    display: flex;
+    align-items: center;
+}
+.nav-bottom__auth-block {
+    display: flex;
+    align-items: center;
+    padding-right: 3px;
+}
+.nav-bottom__auth-block span {
+    padding: 0px 4px;
+    font-family: "Roboto Light";
+    font-size: 14px;
+    color: #7e7e7e;
+}
+.nav-bottom__register {
+    font-family: "Roboto Light";
+    font-size: 14px;
+    margin-right: 6px;
+    color:#000000;
+}
+.nav-bottom__auth-link {
+    font-family: "Roboto Light";
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+}
+.nav-bottom__auth-link:hover {
+    color: #2879fe;
+}
+.nav-bottom-cart {
+    cursor: pointer;
+}
+.nav-bottom-cart:hover path{
+    stroke: #2879fe;
 }
