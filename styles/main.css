@@ -16,12 +16,12 @@
     height: 70px;
 }
 .nav__logo-wrapper {
-display: flex;
-justify-content: flex-start;
-align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 .nav__logo-text {
-font-family: "Roboto Regular";
+    font-family: "Roboto Regular";
     font-size: 24px;
     margin-left: 15px;
 }
