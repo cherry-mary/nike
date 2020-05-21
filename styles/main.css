@@ -51,32 +51,50 @@ font-family: "Roboto Regular";
     left: -14px;
 }
 
-.nav-bottom__inner {
+.nav-bottom__wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 35px;
 }
-
-.nav-bottom__contacts {
-    display: flex;
-    align-items: center;
-}
-.nav-bottom__number {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+.nav-bottom__call-us {
     font-family: "Roboto Light";
     font-size: 14px;
     color: black;
 }
-.nav-bottom__cart {
+.nav-bottom__right-block {
     display: flex;
     align-items: center;
+}
+.nav-bottom__auth-block {
+    display: flex;
+    align-items: center;
+    padding-right: 3px;
+}
+.nav-bottom__auth-block span {
+    padding: 0px 4px;
+    font-family: "Roboto Light";
+    font-size: 14px;
+    color: #7e7e7e;
 }
 .nav-bottom__register {
     font-family: "Roboto Light";
     font-size: 14px;
     margin-right: 6px;
     color:#000000;
+}
+.nav-bottom__auth-link {
+    font-family: "Roboto Light";
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+}
+.nav-bottom__auth-link:hover {
+    color: #2879fe;
+}
+.nav-bottom-cart {
+    cursor: pointer;
+}
+.nav-bottom-cart:hover path{
+    stroke: #2879fe;
 }
