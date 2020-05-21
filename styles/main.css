@@ -51,7 +51,7 @@ font-family: "Roboto Regular";
     left: -14px;
 }
 
-.nav-bottom__two {
+.nav-bottom__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,7 +59,7 @@ font-family: "Roboto Regular";
 }
 
 .nav-bottom__contacts {
-     display: flex;
+    display: flex;
     align-items: center;
 }
 .nav-bottom__number {
@@ -78,5 +78,5 @@ font-family: "Roboto Regular";
     font-family: "Roboto Light";
     font-size: 14px;
     margin-right: 6px;
-    color: black;
+    color:#000000;
 }
