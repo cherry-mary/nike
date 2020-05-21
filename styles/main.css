@@ -95,6 +95,6 @@ font-family: "Roboto Regular";
 .nav-bottom-cart {
     cursor: pointer;
 }
-.nav-bottom-cart:hover path{
+.nav-bottom-cart:hover path {
     stroke: #2879fe;
 }
