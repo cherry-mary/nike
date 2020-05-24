@@ -35,7 +35,7 @@
 }
 .nav__list-link {
     font-family: "Roboto Light";
-    margin-left: 20px;
+    margin-left: 18px;
     font-size: 14px;
     text-decoration: none;
     color: #000000;
@@ -175,4 +175,43 @@
 }
 .panel__icon_active .panel__icon-rect-active {
     fill: #ADADAD;
+}
+
+.catalog__product-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 359px;
+    height: 88px;
+    background: #282828;
+    transition: all .3s ease-in-out;
+}
+.catalog__link {
+    position: relative;
+    color: #FFFF;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Roboto Bold";
+}
+.catalog__product-container:hover {
+    background: #878787;
+    cursor: pointer;
+    color: #000000;
+} 
+
+.catalog__product-container_active {
+    background: #878787;
+}
+.catalog__count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -24px;
+    top: -5px;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    background: #d84034;
+    font-size: 17px;
 }
