@@ -176,7 +176,10 @@
 .panel__icon_active .panel__icon-rect-active {
     fill: #ADADAD;
 }
-
+.catalog__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
 .catalog__product-container {
     display: flex;
     align-items: center;
@@ -198,7 +201,6 @@
     cursor: pointer;
     color: #000000;
 } 
-
 .catalog__product-container_active {
     background: #878787;
 }
@@ -214,4 +216,27 @@
     height: 22px;
     background: #d84034;
     font-size: 17px;
+}
+.product-block {
+    
+}
+.product-block__item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 360px;
+    height: 356px;
+    border: 1px solid #FFFFFF;
+}
+.product-block-images {
+    position: absolute;
+}
+.product-block__name-of-goods {
+    font-family: "Roboto Light";
+    font-size: 18px;
+}
+.product-block__price {
+    font-family: "Roboto Bold";
+    font-size: 18px;
 }
