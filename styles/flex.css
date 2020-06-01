@@ -37,9 +37,6 @@
     background: #C4C4C4;
     margin-top: 29px;
 }
-.big-block {
-    background: #EEEE;
-}
 .figures {
     margin-top: 80px;
 }
@@ -76,7 +73,6 @@
 .big-block__common-block {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; 
 }
 .big-block__gray {
     width: 165px;
