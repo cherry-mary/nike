@@ -132,7 +132,6 @@
     font-size: 14px; 
     color: #b2b2b2;
 }
-
 .panel__search-input::-webkit-input-placeholder {
     color:#B2B2B2;
     font-size: 14px; 
@@ -149,7 +148,6 @@
     color:#B2B2B2;
     font-size: 14px; 
 }
-
 .panel__icon-lupe {
     position: absolute;
     top: 14px;
@@ -180,7 +178,7 @@
     display: flex;
     justify-content: space-between;
 }
-.catalog__product-container {
+.catalog-product__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -196,12 +194,12 @@
     font-size: 24px;
     font-family: "Roboto Bold";
 }
-.catalog__product-container:hover {
+.catalog-product__link:hover {
     background: #878787;
     cursor: pointer;
     color: #000000;
 } 
-.catalog__product-container_active {
+.catalog-product__link_active {
     background: #878787;
 }
 .catalog__count {
@@ -217,16 +215,19 @@
     background: #d84034;
     font-size: 17px;
 }
-.product-block {
-    
-}
-.product-block__item-cotainer {
+
+/* block
+    block__element
+    block__secrond-element */
+
+
+.catalog-product__block {
     width: 750px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.product-block__item {
+.catalog-product__block-wrapper {
     position: relative;
     display: flex;
     justify-content: center;
@@ -236,27 +237,41 @@
     border: 1px solid #FFFF;
     background: #FFFF;
     margin-bottom: 27px;
+    overflow: hidden;
 }
-.product-block__item:hover {
-    background: #878787;
-    cu
-    color: #000000;
+.catalog-product__block-wrapper:hover .catalog-product__lupe-block {
+    display: flex;
+    cursor: pointer;
+    top: 0;
 }
-.product-block-images {
+.catalog-product__lupe-block {
+    display: none; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    left: 0;
+    background: rgba(128, 152, 213, 0.51);
+    transition: all .3s ease-in-out;
+}
+.catalog-product__images {
     position: absolute;
     padding-top: 53px;
 }
-.product-block__text {
+.catalog-product__block-text {
     position: absolute;
     left: 17px;
     bottom: 20px;
 }
-.product-block__name-of-goods {
+.catalog-product__name-of-goods {
     font-family: "Roboto Light";
     font-size: 18px;
     margin-bottom: 9px;
 }
-.product-block__price {
+.catalog-product__price {
     font-family: "Roboto Bold";
     font-size: 18px;
 }
